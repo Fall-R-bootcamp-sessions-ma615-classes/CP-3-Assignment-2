@@ -1,0 +1,42 @@
+---
+title: "CP3_Assignment_2_instructions"
+author: "Aidan O'Hara"
+date: "2023-08-16"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# CP3 Assignment 2
+
+# Matrices
+
+# Exercise 1
+
+Construct the following matrices
+
+-  A 3x3 matrix with numbers 1 through 9, column 1 should contain (1,2,3)
+-  A 20x40 matrix with columns populated by a sequence from 600 to 1399 by 1.
+-  Another 20x40 matrix with columns populated by the sequence of numbers between -1 and 1 that is 800 elements long.
+
+# Exercise 2
+
+Create 8 vectors, each 8 integers long where each i\^{th} vector at the j\^{th} position contains the value (j\*i), consider how you might solve this using vectors and a for loop.
+
+# Exercise 3
+
+Create the array, `thisArray`, such that the first level contains `largeMatrix` and the second contains `smallMatrix`.
+
+# Exercise 4
+
+Construct `showMatrix` that contains the following 3 vectors as its columns:
+-  c(4,5,6)
+-  c(5,6,4)
+and
+-  c(6,4,5)
+
+Then make the matrix `matrixTranspose` by transposing `showMatrix` and the matrix `solveMatrix` by using the `solve()` function on `showMatrix`.
+
+
